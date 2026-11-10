@@ -1,0 +1,123 @@
+body {
+    background-color: #f7f3ea;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+.main-heading {
+    color: #0f2533;
+    text-align: center;
+}
+
+   
+.sirc{
+    color:#f6f0d9;
+    text-align: center;
+    background-color: #0f2533;
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 12px;
+}
+
+.ctlg-form {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #142c3b;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 15px;
+    color: #444444;
+    margin-bottom: 8px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #142c3b;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #254b60;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #142c3b;
+    box-shadow: 0 0 4px rgba(20, 44, 59, 0.25);
+}
+
+input[type="file"] {
+    background-color: #f5f3ef;
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    .ctlg-form {
+        width: 100%;
+        padding: 18px;
+        box-sizing: border-box;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}
+.ctlg-form {
+    max-width: 750px;
+    border: 1px solid #e5e0d6;
+}
+
+label {
+    display: block;
+    color: #263746;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+button {
+    width: 100%;
+    transition: background-color 0.2s ease;
+}

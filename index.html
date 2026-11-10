@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    
+        <head>
+            <meta charset="UTF-8">
+            <meta name="description" content="your description">
+            <title>Catalogue Submission Portal</title>
+            <link rel="stylesheet" href="css/style1.css">
+        </head>
+        <body>
+            <form class="ctlg-form" id="catalogueForm">
+                <h1 class="main-heading">
+                    <b>CATALOGUE SUBMISSION FORM</b>
+                </h1>
+                <hr>
+                <br>
+                <h2 class="sirc">STUDENTS' INTERNATIONAL RELATIONS CELL, <br> 
+                    INDIAN INSTITUTE OF TECHNOLOGY, KHARAGPUR</h2>
+                <br>
+                <h3>Personal Information</h3>
+                <br>
+                <label for="name">Enter Name</label>
+                <input id="name" name="name" type="text" placeholder="space for name" required/>
+                <br><br>
+                <label for="email">Enter Email</label>
+                <input id="email" name="email" type="email" placeholder="space for email id" required/>
+                <br><br>
+                <label for="phone">Enter Phone Number</label>
+                <input id= "phone" name="phone" type="tel" placeholder="space for phone number" required/>
+                <br><br>
+                <h3>Catalogue Information</h3>
+                <br>
+                <label for="title">Catalogue Entry Title</label>
+                <input id="title" name="title" type="text" placeholder="Enter Title" required/>
+                <br><br>
+                <label for="ctgry">Category</label>
+                <select id="ctgry" name="ctgry" required>
+                    <option value="">Select a category</option>
+                    <option value="Academic">Academic</option>
+                    <option value="Cultural">Cultural</option>
+                    <option value="Research">Research</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br><br>
+                <label for="desc">Description</label>
+                <textarea id="desc" name="desc" rows="3" cols="70" placeholder="Enter description"></textarea>
+                <br><br>
+                <label for="doc">Upload Catalogue Document</label>
+                <input id="doc" name="doc" type="file" accept=".pdf,.doc,.docx">
+                <br><br><br>
+                <button type="submit"> Submit </button>
+            </form>
+            <script src="js/script.js"></script>
+        </body>
+       
+</html>
